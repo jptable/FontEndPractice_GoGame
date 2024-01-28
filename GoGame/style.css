@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DFKai-SB;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+header div.top {
+  background-image: url("./images/background.png");
+
+  padding: 1rem;
+}
+
+header div.top h1 {
+  font-size: 2.5rem;
+}
+
+header div.top h2 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  font-size: 1.3rem;
+  font-family: DFKai-SB;
+  padding: 0.8rem 1.2rem;
+}
+
+a:hover {
+  color: yellow;
+  transition: 0.3s ease-out;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: yellow;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.no-flex {
+  display: block;
+}
+
+section.left {
+  flex: 1 1 200px;
+  padding: 1rem 0.5rem;
+}
+
+section.left h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem 0rem;
+}
+
+section.left img {
+  width: 100%;
+}
+
+section.left table {
+  margin-top: 1rem;
+}
+
+section.left table,
+section.left td {
+  padding: 0.25rem;
+}
+
+section.right {
+  flex: 4 1 500px;
+  padding: 1rem 0.5rem;
+}
+
+section.right h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+section.right ul {
+  margin-left: 2rem;
+}
+
+p {
+  padding: 0.5rem 1rem;
+}
+
+.player {
+  margin: 1rem 2rem 2rem 2rem;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  padding: 0.5rem;
+}
+
+.player h4 {
+  color: rgb(0, 153, 255);
+  font-size: 1.5rem;
+}
+
+.player h5 {
+  color: rgb(0, 153, 255);
+  font-size: 1rem;
+}
+
+.japan {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.japan figure {
+  flex: 1 1 300px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.japan img {
+  width: 100%;
+}
+
+.japan_info {
+  flex: 3 1 600px;
+}
+
+.competition {
+  display: block;
+}
+
+.competition h3 {
+  color: rgb(0, 153, 255);
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+
+.japan_info ul,
+.competition ul {
+  padding-left: 3rem;
+}
+
+.china_info {
+  display: block;
+}
+
+.china_info h3 {
+  color: rgb(0, 153, 255);
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+
+.china_table {
+  padding: 0rem 1rem;
+}
+
+.china_table table {
+  width: 60%;
+}
+
+.china_table th {
+  background-color: aquamarine;
+}
+
+.china_table tr {
+  background-color: azure;
+}
+
+.taiwan {
+  padding: 1rem;
+}
+
+.taiwan h3 {
+  color: rgb(0, 153, 255);
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+
+.taiwan ul {
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+}
