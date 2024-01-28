@@ -3,4 +3,4 @@
 
 [課程連結](https://www.udemy.com/course/wilson-full-stack-web-development/)
 
-1. 圍棋網站（HTML&CSS）
+1. [圍棋網站（HTML&CSS）](https://github.com/jptable/FontEndPractice_GoGame/tree/dee15864498fcb4167ad25f2b64947eb5883d38b/GoGame)
