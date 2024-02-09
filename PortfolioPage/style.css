@@ -1,0 +1,134 @@
+* {
+  font-size: 1rem;
+  font-weight: normal;
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem;
+  color: white;
+  font-family: Microsoft JhengHei, DFKai-sb;
+}
+
+body {
+  background-color: black;
+  padding: 1rem;
+}
+body section.electrocardiogram {
+  display: flex;
+  position: absolute;
+  top: 95%;
+  width: 95vw;
+  z-index: -10;
+}
+body section.electrocardiogram div.line {
+  justify-items: center;
+  border: rgba(20, 109, 109, 0.7) 1px solid;
+}
+body header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 1;
+}
+body header section.title {
+  display: flex;
+  flex: 1 1 130px;
+}
+body header section.title h1 {
+  font-size: 2rem;
+  color: rgb(238, 166, 72);
+  padding-left: 1rem;
+  font-weight: bold;
+}
+body header nav {
+  flex: 6 1 530px;
+}
+body header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+body header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+  font-size: 1.2rem;
+  padding-right: 1.5rem;
+}
+body header nav ul li :hover {
+  color: rgb(238, 166, 72);
+}
+body main section.main-area {
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main section.main-area section.description h2 {
+  width: 100%;
+  font-size: 3rem;
+}
+body main section.main-area section.description h3 {
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+body main section.main-area section.photo {
+  height: 450px;
+  margin-left: 10rem;
+}
+body main section.main-area section.photo img {
+  height: 100%;
+}
+body main section.about-me {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main section.about-me h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+body main section.about-me p {
+  font-size: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0rem;
+}
+body main section.about-me div.progress-bar-area {
+  margin-bottom: 1rem;
+  width: 65vw;
+}
+body main section.about-me-bottom {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+body main section.about-me-bottom section.about-me-table table {
+  margin-top: 2rem;
+}
+body main section.about-me-bottom section.about-me-table table tr {
+  border-bottom: gray 1px solid;
+}
+body main section.about-me-bottom section.about-me-table table tr td {
+  padding: 1rem;
+  font-size: 1rem;
+}
+body main section.about-me-bottom section.about-me-table table tr td ul {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+body main section.about-me-bottom section.photo1 {
+  height: 300px;
+  margin: 5rem;
+}
+body main section.about-me-bottom section.photo1 img {
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
