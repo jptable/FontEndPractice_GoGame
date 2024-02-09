@@ -3,6 +3,7 @@
 
 <a href="https://www.udemy.com/course/wilson-full-stack-web-development">課程連結</a>
 
-1. <a href="https://github.com/jptable/FontEndPractice_GoGame/tree/dee15864498fcb4167ad25f2b64947eb5883d38b/GoGame">圍棋網站（HTML&CSS)</a>
-
+1. <a href="https://github.com/jptable/FontEndPractice_GoGame/tree/dee15864498fcb4167ad25f2b64947eb5883d38b/GoGame">圍棋網站</a>
 2. <a href="https://github.com/jptable/FullStackDevelopment_Practice/tree/main/BookMark">BookMark 練習</a>
+3. <a href="https://github.com/jptable/FullStackDevelopment_Practice/tree/main/JapanTravel">日本旅遊網</a>
+4. <a href="https://github.com/jptable/FullStackDevelopment_Practice/tree/main/PortfolioPage">作品集頁面</a>
